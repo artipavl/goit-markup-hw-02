@@ -21,6 +21,7 @@
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color);
 }
@@ -47,6 +48,11 @@ body {
   background-color: var(--accent-color);
 }
 
+.button-current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 /* Header */
 
 /* logo */
@@ -65,28 +71,26 @@ body {
 }
 
 /* Nav */
-.site-nav .linc {
+.nav-linc {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.site-nav .linc:hover,
-.site-nav .linc:focus {
+.nav-linc:hover,
+.nav-linc:focus {
   color: var(--accent-color);
 }
 
-.site-nav .linc.current {
+.nav-linc.current {
   color: var(--accent-color);
 }
 
 .nav-address {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -139,15 +143,14 @@ body {
 
 /* Особливості */
 
-.feature-list .title {
+.feature-title {
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.19;
   text-transform: uppercase;
 }
 
-.feature-list .text {
-  font-size: 14px;
+.feature-text {
   line-height: 1.71;
 }
 
@@ -156,7 +159,7 @@ body {
   background-color: var(--primary-bg-color);
 }
 
-.team-list .title {
+.team-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -164,7 +167,7 @@ body {
   text-align: center;
 }
 
-.team-list .text {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -174,14 +177,14 @@ body {
 .portfolio-list a {
   text-decoration: none;
 }
-.portfolio-list .title {
+.portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 
-.portfolio-list .text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
@@ -192,18 +195,25 @@ body {
   background-color: var(--primary-black-color);
 }
 
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
 .address {
   font-style: normal;
 }
 .addrem-map {
   text-decoration: none;
   color: var(--primary-white-color);
-  font-size: 14px;
   line-height: 1.71;
 }
-.footer-link {
+.address-link {
   text-decoration: none;
-  font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
