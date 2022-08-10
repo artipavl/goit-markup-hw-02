@@ -9,7 +9,6 @@
     белый #FFFFFF
 */
 
-/* константи */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -22,7 +21,7 @@
 body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  font-size: 14px;
+  font-size: 14px;  
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color);
 }
@@ -146,7 +145,7 @@ body {
 
 .feature-title {
   color: var(--title-text-color);
-  font-size: 14px;
+  font-size: 14px; 
   line-height: 1.19;
   text-transform: uppercase;
 }
@@ -196,7 +195,7 @@ body {
   background-color: var(--primary-black-color);
 }
 
-.footer .logo {
+.footer .logo{
   color: var(--primary-white-color);
 }
 
